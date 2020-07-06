@@ -86,11 +86,11 @@ steamPage:
         [/list]
 
 global:
-    loading: Loading
-    error: Error
+    loading: Nalaganje
+    error: Napaka
 
     # How big numbers are rendered, e.g. "10,000"
-    thousandsDivider: ","
+    thousandsDivider: "."
 
     # The suffix for large numbers, e.g. 1.3k, 400.2M, etc.
     suffix:
@@ -100,18 +100,18 @@ global:
         trillions: T
 
     # Shown for infinitely big numbers
-    infinite: inf
+    infinite: ∞
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: sekundo nazaj
+        xSecondsAgo: <x> sekund nazaj
+        oneMinuteAgo: minuto nazaj
+        xMinutesAgo: <x> minut nazaj
+        oneHourAgo: uro nazaj
+        xHoursAgo: <x> ur nazaj
+        oneDayAgo: včeraj
+        xDaysAgo: <x> dni nazaj
 
         # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
@@ -130,28 +130,28 @@ global:
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
-    title: Demo Version
+    title: Demo verzija
     intro: >-
-        Get the standalone to unlock all features!
+        Pridobi polno verzijo da odkleniš vse funkcije.
 
 mainMenu:
-    play: Play
-    continue: Continue
-    newGame: New Game
-    changelog: Changelog
+    play: Igraj
+    continue: Nadaljuj
+    newGame: Nova igra
+    changelog: Dnevnik sprememb
     subreddit: Reddit
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
-    madeBy: Made by <author-link>
+    importSavegame: Uvozi
+    openSourceHint: Ta igra je odprtokodna!
+    discordLink: Uradni Discord strežnik
+    helpTranslate: Pomagaj pri prevodu
+    madeBy: Naredil <author-link>
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        Oprosto, ta igra deluje počasi v tvojem brskalniku! Pridobi polno verzijo ali prenese brskalnik Chrome.
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Nivo <x>
+    savegameLevelUnknown: Neznan nivo
 
     contests:
         contest_01_03062020:
